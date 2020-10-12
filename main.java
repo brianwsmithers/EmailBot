@@ -1,6 +1,6 @@
 /**
  *  This email bot uses javax.mail.jar and the Java utility library to send e-mails with GMAIL.
- *  To use the program for your e-mail please install the java.mail.jar and library follow
+ *  To use the program for your e-mail please install the java.mail.jar library and follow
  *  the instructions.
  * 
  *  @author Brian Smithers
