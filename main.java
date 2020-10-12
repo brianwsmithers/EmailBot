@@ -1,23 +1,28 @@
 /**
- * This email bot uses javax.mail.jar and the Java utility library to send e-mails with GMAIL.
- * To use the program for your e-mail please install the java.mail.jar and library follow 
- * the instructions.
- *
- * Change the following values...
+ *  This email bot uses javax.mail.jar and the Java utility library to send e-mails with GMAIL.
+ *  To use the program for your e-mail please install the java.mail.jar and library follow
+ *  the instructions.
  * 
- * 1. String 'from' to your email address.
- * 2. String 'password' to your email account password.
- * 3. String 'to' to the receiver of your email.
- * 4. String 'setSubject' to the subject of your message.
- * 5. String 'setMessage' to the body of your message.
+ *  @author Brian Smithers
+ *  @version 1.0
+ *  @since October 11, 2020 
  *
- * Please note, you will need to use a developer password to access your GMAIL account if
- * you have multi-factor authentication activated. You can find out how to do this through
- * the google website. It will provide you with a unique password that does not require
- * multi-factor authentication. DO NOT share the password with anyone as it is a less 
- * secure method of accessing your email account.
+ *  Change the following values...
+ *
+ *  1. String 'from' to your email address.
+ *  2. String 'password' to your email account password.
+ *  3. String 'to' to the receiver of your email.
+ *  4. String 'setSubject' to the subject of your message.
+ *  5. String 'setMessage' to the body of your message.
+ *
+ *  Please note, you will need to use a developer password to access your GMAIL account if
+ *  you have multi-factor authentication activated. You can find out how to do this through
+ *  the google website. It will provide you with a unique password that does not require
+ *  multi-factor authentication. DO NOT share the password with anyone as it is a less
+ *  secure method of accessing your email account.
  *
  */
+
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
